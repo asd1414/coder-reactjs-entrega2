@@ -1,8 +1,10 @@
-import React from 'react'
 
-function Item() {
+const Item=({product}) => {
   return (
-    <div>Item</div>
+    <div>
+      <p>{product.name}</p>
+      <p>Precio: {product.precio}</p>
+    </div>
   )
 }
 

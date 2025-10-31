@@ -1,12 +1,12 @@
 import products from "./products.json"
 
 const getProducts = () => {
-  return new promise ( (resolve) => {
+  return new promise((resolve) => {
 
-    setTimeout(()=> {
+    setTimeout(() => {
       resolve(products)
     }, 3000)
-   
+
 
   })
 }
